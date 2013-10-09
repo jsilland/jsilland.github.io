@@ -1,13 +1,46 @@
----
-layout: default
-title: Your New Jekyll Site
----
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Soliton</title>
+    <meta charset="utf-8"> 
+    <link href="http://fonts.googleapis.com/css?family=Michroma:regular" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Gruppo" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Waiting+for+the+Sunrise:regular" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Oleo+Script+Swash+Caps' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/soliton.css" type="text/css" />
+  </head>
+  <body>
+    <div id="screen">
+      <div id="content">
+        <div id="title">
+          Soliton
+        </div>
+        <div id="hsep"></div>
+        <div id="wrapper">
+          <div id="intro">  
+            <p><strong>Julien Silland</strong></p>
+            <p>Not a minimalist in any way. I don’t think with an accent but I speak with one.</p>
+            <p>I fiddle with bits for a living, with photons and ingredients when time allows. Consistenly a slow climber. Socially known as @jsilland.</p>
+          </div>
+          <div id="vsep"></div>
+          <div id="links">
+            <ul>
+              <li><a href="http://flickr.com/photos/jsilland">Shots</a></li>
+              <li><a href="https://twitter.com/jsilland">Tweets</a></li>
+              <li><a href="http://github.com/jsilland">Commits</a></li>
+              <li><a href="http://strava.com/athletes/jsilland">Rides</a></li>
+              <li><a href="http://stellar.io/jsilland">Faves</a></li>
+            </ul>
+          </div>
+        </div>
+        <div id="hsep"></div>
+        <div id="locations">
+          <p>The Castro, San Francisco — Kreis 4, Zürich — Moulin à Vent, Vénissieux — 19e, Paris</p>
+        <div>
+      </div>
+    </div>
+  </body>
+</html>
 
-<div id="home">
-  <h1>Blog Posts</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
-</div>
