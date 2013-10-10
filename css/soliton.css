@@ -1,29 +1,28 @@
 body {
-	margin: 0;
-	padding: 0;
-	background-color: #f7f7f7;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
 }
 
 #content {
-	border: 1px solid #e1e1e1;
-	padding: .5em;
-	width: 35em;
-	//height: 20em;
-	margin: auto;
-	margin-top: 9em;
+  border: 1px solid #e1e1e1;
+  padding: .5em;
+  width: 35em;
+  margin: auto;
+  margin-top: 9em;
 }
 
 #hsep {
-	width: 90%;
-	height: 0;
-	border-width: 1px;
-	border-bottom: 1px solid #e1e1e1;
-	margin: auto;
+  width: 90%;
+  height: 0;
+  border-width: 1px;
+  border-bottom: 1px solid #e1e1e1;
+  margin: auto;
 }
 
 #title {
-	color: #b32002;
-	font: 3em 'Waiting for the Sunrise';
+  color: #b32002;
+  font: 3em 'Waiting for the Sunrise';
 }
 
 #wrapper {
@@ -33,82 +32,64 @@ body {
 
 #intro {
   width: 17em;
-	text-align: left;
+  text-align: left;
   font-family: 'Merriweather', serif;
   float: left;
 }
 
 #vsep {
-	width: 1px;
-	height: 15em;
-	border-width: 1px;
-	border-left: 1px solid #e1e1e1;
+  width: 1px;
+  height: 15em;
+  border-width: 1px;
+  border-left: 1px solid #e1e1e1;
   float: left;
-	margin-left: .5em;
-	margin-right: .5em;
+  margin-left: .5em;
+  margin-right: .5em;
 }
 
 #links {
   width: 7em;
-	text-align: right;
-	font-size: 2em;
+  text-align: right;
+  font-size: 2em;
   float: left;
 }
 
 #links ul {
-	//font-family: 'Michroma';
-	//font-family: 'Oleo Script Swash Caps';
-	font-family: 'Lobster';
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
+  font-family: 'Lobster';
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 #links ul li {
-	-webkit-transition: all 250ms ease-in-out;
-	-moz-transition: all 250ms ease-in-out;
-	-o-transition: all 250ms ease-in-out;
-	-ms-transition: all 250ms ease-in-out;
+  -webkit-transition: all 250ms ease-in-out;
+  -moz-transition: all 250ms ease-in-out;
+  -o-transition: all 250ms ease-in-out;
+  -ms-transition: all 250ms ease-in-out;
   padding-right: .5em;
 }
 
 #links ul li a:link {
-	text-decoration: none;
-	color: black;
+  text-decoration: none;
+  color: black;
 }
 
 #links ul li:hover {
-	background-color: #4f5c6f;
-	color: #b32002;
+  background-color: #4f5c6f;
+  color: #E32E09;
 }
 
 #links ul li a:hover {
-	color: #b32002;
-	text-shadow: #2f2f2f 0 0 3px;
+  color: #E32E09;
+  text-shadow: #96240C 0 0 3px;
+}
+
+#links ul li a:visited {
+  color: inherit;
 }
 
 #locations {
   font-family: 'Merriweather', serif;
   font-size: .7em;
   text-align: center;
-}
-
-#footer {
-	color: #e1e1e1;
-	font: .7em "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
-	position: fixed;
-	bottom: 0;
-	right: 0;
-	padding-bottom: .5em;
-	padding-right: .5em;
-}
-
-#footer a:link, a:visited {
-	text-decoration: none;
-	color: inherit;
-}
-
-#footer a:hover {
-	text-decoration: underline;
-	color: #bebebe;
 }
